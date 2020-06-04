@@ -1,0 +1,39 @@
+settings =
+{
+    orientation =
+    {
+        default = "landscapeRight",
+        supported =
+        {
+            "landscapeRight", "landscapeLeft"
+        }
+    },
+	
+	android =
+    {
+		versionCode = "1"
+	},
+
+	iphone =
+	{
+		plist=
+		{
+		
+		    UIInterfaceOrientation = "UIInterfaceOrientationLandscapeRight",
+            UISupportedInterfaceOrientations =
+            {
+                "UIInterfaceOrientationLandscapeLeft",
+                "UIInterfaceOrientationLandscapeRight"
+            },
+
+			UIStatusBarHidden=true,
+	        CFBundleIconFile = "Icon.png",
+	        CFBundleIconFiles = {
+	           "Icon.png", 
+	           "Icon@2x.png", 
+	           "Icon-72.png", 
+	        },
+		},
+	}
+}
+
